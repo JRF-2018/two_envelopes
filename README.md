@@ -1,10 +1,17 @@
 # 二封筒問題のシミュレーション
 
-<!-- Time-stamp: "2020-11-05T13:41:55Z" -->
+<!-- Time-stamp: "2020-11-05T14:06:51Z" -->
 
 詳しいことと更新情報は↓で。
 
-(準備中。)
+《二封筒問題のシミュレーション その１ 基礎編 - JRF のソフトウェア Tips》  
+http://jrf.cocolog-nifty.com/software/2020/11/post-91f890.html
+
+《二封筒問題のシミュレーション その２ 実数拡張編 - JRF のソフトウェア Tips》  
+http://jrf.cocolog-nifty.com/software/2020/11/post-8d2f26.html
+
+《二封筒問題のシミュレーション その３ 整数拡張編 - 》  
+http://jrf.cocolog-nifty.com/software/2020/11/post-cc834b.html
 
 
 ## ライセンス
