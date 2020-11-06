@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-__version__ = '0.0.1' # Time-stamp: <2020-11-02T08:05:43Z>
+__version__ = '0.0.2' # Time-stamp: <2020-11-06T03:10:26Z>
 ## Language: Japanese/UTF-8
 
 """The Two Envelopes Problem: Integer Version."""
@@ -32,6 +32,9 @@ def parse_args ():
     parser.add_argument("-t", "--trials", type=int)
     parser.add_argument("--x-max", "--max", type=int)
     parser.parse_args(namespace=ARGS)
+    if ARGS.trials % 2 != 0:
+        parser.error(message='The --trials must be an even number.')
+
 
 def main ():
     trials = []
