@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-__version__ = '0.0.2' # Time-stamp: <2020-11-06T17:58:52Z>
+__version__ = '0.0.3' # Time-stamp: <2020-11-12T13:31:17Z>
 ## Language: Japanese/UTF-8
 
 """The Two Envelopes Problem: Another Integer Version."""
@@ -64,7 +64,7 @@ def main ():
 
     x = Symbol('x', integer=True)
     q = Symbol('q', integer=True)
-    X = Symbol('X', real=True)
+    X = Symbol('X', integer=True)
     y = Symbol('y', integer=True)
 
     if ARGS.q <= ARGS.x_max:

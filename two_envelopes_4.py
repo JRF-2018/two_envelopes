@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-__version__ = '0.0.2' # Time-stamp: <2020-11-06T03:10:26Z>
+__version__ = '0.0.3' # Time-stamp: <2020-11-12T13:31:59Z>
 ## Language: Japanese/UTF-8
 
 """The Two Envelopes Problem: Integer Version."""
@@ -67,7 +67,7 @@ def main ():
     assert np.all(t_bo == t_bo_)
     
     x = Symbol('x', integer=True)
-    X = Symbol('X', real=True)
+    X = Symbol('X', integer=True)
     y = Symbol('y', integer=True)
 
     n_a1 = summation(1, (x, 1, X/2))
